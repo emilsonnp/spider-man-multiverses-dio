@@ -1,14 +1,6 @@
 @import url('reset.css');
 @import url('global.css');
 
-
-
-
-ul {
-  overflow-y: scroll;
-  
-}
-
 body {
   background-color: var(--primary-color);
 }
