@@ -26,11 +26,11 @@
 }
 
 .gallery #gallery__2_h {
-  padding: 50px;
+  padding: 28px;
 }
 
 .gallery #gallery__3_h {
-  padding: 50px;
+  padding: 28px;
 }
 
 .gallery #gallery__1_t {
@@ -46,5 +46,15 @@
 .gallery #gallery__3_t {
   padding: 20px;
    margin-top: -100px;
+}
 
+
+.gallery #gallery__1_a {
+  padding: 30px;
+   margin-top: -115px;
+}
+
+.gallery #gallery__2_a {
+  padding: 30px;
+  margin-top: -90px;
 }
