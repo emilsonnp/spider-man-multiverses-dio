@@ -49,12 +49,12 @@
 }
 
 
-#lista_fotos1 {
+.s-wrapper .s-main-content__bottom .lista_fotos1 {
   padding: 30px;
    margin-top: -115px;
 }
 
-#lista_fotos2 {
+.s-wrapper .s-main-content__bottom .lista_fotos2 {
   padding: 30px;
   margin-top: -90px;
 }
