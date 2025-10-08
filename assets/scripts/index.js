@@ -1,7 +1,6 @@
 function handleMouseEnter() {
   this.classList.add('s-card--hovered');
   document.body.id = `${this.id}-hovered`;
- 
 }
 
 function handleMouseLeave() {
@@ -29,7 +28,6 @@ function selectCarouselItem(selectedButtonElement) {
   const rotateYDeg = -120 * (Number(selectedItem) - 1);
   const newTransform = transform.replace(rotateY[0], `rotateY(${rotateYDeg}deg)`);
   
-
   carousel.style.transform = newTransform;
 
   const activeButtonElement = document.querySelector('.s-controller__button--active');
