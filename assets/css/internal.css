@@ -48,9 +48,10 @@
 .s-wrapper .s-main-content__bottom{
    height: 30vh;
    display: flex;
-   /* flex-direction: relative;
-   justify-content: flex-end; */
-
+   
+   flex-direction: relative;
+   justify-content: flex-end;
+   /* ATualizção */
 }
 
 .s-wrapper .s-main-content .s-logo img{
