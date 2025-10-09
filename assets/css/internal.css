@@ -36,6 +36,7 @@
   width: 100%;
   padding-left: 130px;
   position: relative;
+  
 }
 
 .s-wrapper .s-main-content__top {
@@ -46,10 +47,10 @@
 }
 
 .s-wrapper .s-main-content__bottom{
-   height: 20vh;
+   height: 10vh;
    display: flex;
-   /* flex-direction: relative; */
-   /* justify-content: flex-end; */
+   /* flex-direction: relative; 
+   justify-content: flex-end; */
    /* ATualizção */
     /* ATualizção */
 }
