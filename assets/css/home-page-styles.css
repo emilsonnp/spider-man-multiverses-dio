@@ -43,7 +43,7 @@ body::before {
   align-items: center;
   justify-content: space-evenly;
   perspective: 3000px;
- border: transparent;
+  border: transparent;
 }
 
 .s-card {
@@ -56,11 +56,12 @@ body::before {
 
 .s-card:nth-child(1) {
   transform: rotateY(0deg) translateZ(50vw);
-  
+
 }
 
 .s-card:nth-child(2) {
   transform: rotateY(120deg) translateZ(50vw);
+  
 }
 
 .s-card:nth-child(3) {
@@ -92,9 +93,7 @@ body::before {
   width: 100%;
   bottom: 0;
   transition: bottom 1s ease-in-out;
- 
 }
-
 .s-controller {
   position: absolute;
   display: flex;
@@ -178,7 +177,8 @@ body[id^="spider-man-"]::before {
 
 body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
   filter: grayscale(100%);
-  
+  display: none;
+  flex-direction: none;
 }
 
 body[id^="spider-man-"] .s-card {
